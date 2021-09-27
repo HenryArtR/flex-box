@@ -131,48 +131,61 @@ a:hover{
 .child-3 div{
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgb(248, 248, 248, 0.6);
-    height:600px;
+    height: auto;
     width: 48%;
     margin: 10px;
-
 }
 .child-3> div img{
     height: 500px;
     width: 100%;
 
 }
-span{
+h3 span{
     display: flex;
     background-color: rgba(248, 248, 248, 0.8);
     color: rgba(66, 65, 65, 0.8);
     font-size: 20px;
-    margin-bottom: 1px;
+    margin-bottom: -1px;
 }
 
 .child-3 div h3{
     display: flex;
     flex-flow: column;
     background: tomato;
+    text-align: left;
     font-size: 30px;
     margin-top: -5px;
 }
 .child-3 div p{
-    margin-left: 30px;
+    margin-left: 15px;
+    height: auto;
     width: 95%;
+    margin-top: -20px;
 }
+
+
+
+
 #special-2{
-    width: 92.5%;
+    display: flex;
+    flex-flow: column;
+    width: 98%;
     margin-bottom: 30px;
-    background-color: #70A3C4;
+    background-color: rgb(248, 248, 248, 0.6);
+    margin-bottom: 10px;
+}
+#special-2 img{
+    width: 100%;
 }
 .child-4{
     display: flex;
     flex-flow: column wrap;
-    z-index: 2;
+    justify-content: space-between;
     background-color: rgb(248, 248, 248, 0.6);
     width: 98%;
+    margin: 10px;
     height:auto;
 }
 .child-4>img{
@@ -181,21 +194,39 @@ span{
     margin-top: 10px;
     margin-left: 11px;
 }
+.child-4 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    color: tomato;
+    font-size: 50px;
+    height: 80px;
+    width: 98%;
+    margin: 10px;
+}
 
 /* FOOTER */
 
 .three{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     height: 80px;
     margin-top: 20px;
 }
 .three>div{
-    background-color: #E6AF2E;
-    width: 95%;
-    height: 30px;
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: blanchedalmond;
+    width: 98%;
+    height: 60px;
+    margin: 10px;
+}
+.three a{
+    color: blanchedalmond;
 }
 
 @media (max-width: 1014px){
