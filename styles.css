@@ -129,6 +129,9 @@ a:hover{
 
 }
 .child-3 div{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     background: rgb(248, 248, 248, 0.6);
     height:600px;
     width: 48%;
@@ -140,8 +143,17 @@ a:hover{
     width: 100%;
 
 }
+span{
+    display: flex;
+    background-color: rgba(248, 248, 248, 0.8);
+    color: rgba(66, 65, 65, 0.8);
+    font-size: 20px;
+    margin-bottom: 1px;
+}
 
 .child-3 div h3{
+    display: flex;
+    flex-flow: column;
     background: tomato;
     font-size: 30px;
     margin-top: -5px;
