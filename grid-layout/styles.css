@@ -7,23 +7,19 @@ header{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: minmax(100px,auto);
-    height: 240px;
-    background: darkgray;
-    border: 1px solid blue;
     list-style: none;
-    background: url(img/fons\ capçalera.jpg) center fixed;
-    background-size: 100%;
-    background-position-y: -290px;
-    margin: 30px;
+    background: url(img/fons\ capçalera.jpg) center;
+    margin: 60px;
 }
 
-.Box{
-    border: 1px solid black;
+.Boxh{
+    height: auto;
 }
 
 .Box1{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
     grid-column: 1/5;
     margin: 10px;
 }
@@ -34,17 +30,23 @@ header{
     grid-column: 1/5;
     grid-row:2/3;
     margin: 10px;
+    background: rgb(121, 118, 118, 0.1);
     
 }
 .box{
-    border: 1px solid red;
-    height: 60px;
     margin: 10px;
 }
+.box1{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    margin-left: 40px;
+}
 .box1 a img{
-    margin: 5px;
-    height: 50px;
-    width: 50px;
+    display: grid;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
 }
 .box2{
     display: grid;
@@ -52,20 +54,17 @@ header{
     justify-content: left;
     justify-items: center;
     align-items: center;
-    margin: 10px;
 }
 .box2 li a{
     color: black;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-decoration: none;
 }
 .box3{
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 10px;
-    justify-items: center;
-    margin: 10px;
-    gap: 30px;
+    gap: 45px;
+ 
 }
 .box3 a img{
     width: 15px;
@@ -76,7 +75,8 @@ header{
     grid-template-rows: 1fr;
     text-align: center;
     align-items: center;
-    font-size: 1.5rem;
+    color: rgb(240, 160, 162, 0.8);
+    font-size: 2rem;
 
 }
 
@@ -84,56 +84,65 @@ header{
 
 section{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: minmax(100px,auto);
-    background: darkgray;
+    background-color: #DCDCDC;
     border: 1px solid blue;
     list-style: none;
-    background: url(img/fons\ capçalera.jpg) center fixed;
-    background-size: 100%;
-    background-position-y: -290px;
-    margin: 30px;
+    margin: 60px;
 }
-.Box3{
+.Boxs{
     display: grid;
-    grid-row: 1/4;
-    grid-column: 1/3;
-    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-rows: minmax(100px, auto) ;
     margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
 .box5{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row: 1/5;
-    background: url(img/abeja.jpg) center;
-    height: 400px;
-    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
     border: 1px solid red;
-    margin: 10px;
+    margin: 0px;
 }
-.box5 span{
-    background-color: rgba(248, 248, 248, 0.8);
-    display: grid;
-    grid-column: 1/ span 4;
-    grid-row: 4/ span 3;
-    font-size: 1rem;
-
+.box5 img{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+    border: 1px solid green;
 }
 .box5 h3{
     display: grid;
+    grid-template-rows: 1fr 2fr;
     grid-column: 1/4;
-    grid-row: 5/ span 3;
+    height: 50px;
     background: tomato;
     font-size: 1.5rem;
-    
+    margin-top: 0px;
+}
+.box5 span{
+    display: grid;
+    background: red;
+    grid-column: 1/4;
+    align-items: center;
+    font-size: 0.8rem;
 }
 .box5 p{
     display: grid;
-    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    background: green;
     grid-column: 1/4;
-    grid-row: 2/3;
+    font-size: 0.8rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -40px;
 }
+
+
+
+
 
 
 
